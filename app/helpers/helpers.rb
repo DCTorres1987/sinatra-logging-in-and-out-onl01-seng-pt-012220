@@ -1,7 +1,7 @@
 require 'pry'
 class Helpers 
   
-  def current_user(hash) 
+  def self.current_user(hash) 
     binding.pry
   end
 end
