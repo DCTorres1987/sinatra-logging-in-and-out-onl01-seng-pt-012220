@@ -1,4 +1,4 @@
-class Helpers
+class Helpers < ActionController::Base
   
   def current_user 
     
