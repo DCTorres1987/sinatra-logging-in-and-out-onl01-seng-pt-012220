@@ -1,6 +1,7 @@
-class Helpers < ActionController::Base
+require 'pry'
+class Helpers 
   
-  def current_user 
-    
+  def current_user(hash) 
+    binding.pry
   end
 end
