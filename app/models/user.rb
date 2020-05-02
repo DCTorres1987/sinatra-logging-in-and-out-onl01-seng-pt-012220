@@ -4,7 +4,7 @@ attr_accessor :username, :password, :balance
 
 @@all = []
 
-def initialize(username, password, balance)
+def initialize(array)
   @username = username
   @password = password 
   @balance = balance 
